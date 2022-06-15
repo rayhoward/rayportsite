@@ -10,7 +10,6 @@ openModalbuttons.forEach(button => {
 
 closeModalbuttons.forEach(button => {
     button.addEventListener('click', () => {
-        const modal = button.closest('.modal')
             closeModal(modal)
     })
 })
@@ -24,3 +23,6 @@ function closeModal(modal) {
     if (modal == null) return
     modal.classList.remove('active')
 }
+
+
+//         const modal = button.closest('.modal') saving this JIC
