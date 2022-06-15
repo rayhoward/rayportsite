@@ -94,8 +94,29 @@ h3 {
 	visibility: visible;
 }
 
+.arduino-border {
+	border: 2px solid turquoise;
+}
 
+.arduino-bottom {
+	border-bottom: 1px solid turquoise;
+}
 
+.htmlcssjs-border {
+	border: 2px solid orange;
+}
+
+.htmlcssjs-bottom {
+	border-bottom: 1px solid orange;
+}
+
+.java-border {
+	border: 2px solid rgb(6, 175, 6);
+}
+
+.java-bottom {
+	border-bottom: 1px solid rgb(6, 175, 6);
+}
 .modal {
     text-align: center;
     font-size: medium;
@@ -107,7 +128,6 @@ h3 {
     transform: 200ms ease-in-out;
     background: #131313;
     border-radius: 10px;
-    border: 2px solid white;
     z-index: 1000;
     width: 90vw;
     height: 70vh;
