@@ -100,7 +100,7 @@ h3 {
     text-align: center;
     font-size: larger;
     font-weight: bolder;
-    position: absolute;
+    position: fixed;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
@@ -129,7 +129,7 @@ h3 {
 }
 
 .modal .close {
-	position: absolute;
+	position: fixed;
 	top: 0;
 	right: 0;
 	width: 40px;
