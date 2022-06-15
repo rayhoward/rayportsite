@@ -10,7 +10,7 @@ openModalbuttons.forEach(button => {
 
 closeModalbuttons.forEach(button => {
     button.addEventListener('click', () => {
-        const modal = button.closest('.modal')
+        const modal = button.active('.modal')
             closeModal(modal)
     })
 })
