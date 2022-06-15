@@ -3,6 +3,8 @@ const closeModalbuttons =document.querySelectorAll('[data-close-button]')
 
 openModalbuttons.forEach(button => {
     button.addEventListener('click', () => {
+        const modal = button.closest('.modal')
+            closeModal(modal)
         const modal = document.querySelector(button.dataset.modalTarget) 
         openModal(modal)
     })
