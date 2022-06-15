@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    color:rgb(11, 153, 18);
+    color: rgb(11, 153, 18);
     top: 50%;
     left: 50%;
     position: absolute;
@@ -18,6 +18,7 @@ h1 {
     cursor: default;
     white-space: nowrap;
 }
+
 h1.top {
     top: 0;
     transform: translateX(-50%);
@@ -31,6 +32,7 @@ h1.top {
     color: ghostwhite;
     margin-top: 100px;
 }
+
 h2 {
     text-align: center;
     margin: 0;
@@ -38,97 +40,99 @@ h2 {
     color: white;
 
 }
+
 h3 {
     text-align: center;
     cursor: default;
     color: white;
 }
 
-.underline:hover{
+.underline:hover {
     text-decoration: underline;
     text-decoration-thickness: 3px;
-    
+
 }
 
-.proj-button:hover{
+.proj-button:hover {
     display: inline-block;
     cursor: pointer;
     text-decoration: underline;
     text-decoration-thickness: 3px;
 }
 
-.proj-desc{
-        width: 10%;
-        margin: 10px;
+.proj-desc {
+    width: 10%;
+    margin: 10px;
 }
-.arduino{
+
+.arduino {
     color: turquoise;
-    
 }
 
-.htmlcssjs{
-    color:orange;
+.htmlcssjs {
+    color: orange;
 }
 
-.java{
+.java {
     color: rgb(6, 175, 6);
 }
 
-.me{
+.me {
     color: grey
 }
 
 .proj-panel {
-	opacity: 0;
-	transition: opacity 0.5s linear;
-	margin-top: 120px;
-	position: absolute;
-	width: 100%;
-	z-index: -100;
-	text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s linear;
+    margin-top: 120px;
+    position: absolute;
+    width: 100%;
+    z-index: -100;
+    text-align: center;
 }
 
 .proj-panel.shown {
-	opacity: 1;
-	z-index: 100;
-	visibility: visible;
+    opacity: 1;
+    z-index: 100;
+    visibility: visible;
 }
 
 .arduino-border {
-	border: 2px solid turquoise;
+    border: 2px solid turquoise;
 }
 
 .arduino-bottom {
-	border-bottom: 1px solid turquoise;
+    border-bottom: 1px solid turquoise;
 }
 
 .htmlcssjs-border {
-	border: 2px solid orange;
+    border: 2px solid orange;
 }
 
 .htmlcssjs-bottom {
-	border-bottom: 1px solid orange;
+    border-bottom: 1px solid orange;
 }
 
 .java-border {
-	border: 2px solid rgb(6, 175, 6);
+    border: 2px solid rgb(6, 175, 6);
 }
 
 .java-bottom {
-	border-bottom: 1px solid rgb(6, 175, 6);
+    border-bottom: 1px solid rgb(6, 175, 6);
 }
 
 .me-border {
-	border: 2px solid grey;
+    border: 2px solid grey;
 }
 
 .me-bottom {
-	border-bottom: 2px solid grey;
+    border-bottom: 1px solid grey;
 }
+
 .modal {
     text-align: center;
     font-size: medium;
-    font-weight: bold;
+    font-weight: bolder;
     position: fixed;
     top: 60%;
     left: 50%;
@@ -141,7 +145,7 @@ h3 {
     height: 70vh;
 }
 
-.modal.active{
+.modal.active {
     transform: translate(-50%, -50%) scale(1);
 }
 
@@ -156,17 +160,17 @@ h3 {
 }
 
 .modal .close {
-	position: fixed;
-	top: 0;
-	right: 0;
-	width: 40px;
-	line-height: 20px;
-	margin: 0;
-	border: 2px solid white;
-	border-top-color: transparent !important;
-	border-right-color: transparent !important;
-	border-bottom-left-radius: 20px;
-	cursor: pointer;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 40px;
+    line-height: 20px;
+    margin: 0;
+    border: 2px solid white;
+    border-top-color: transparent !important;
+    border-right-color: transparent !important;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
 }
 
 .modal-body {
@@ -176,7 +180,7 @@ h3 {
 .modal-body .close-button {
     cursor: pointer;
     border: none;
-    outline: none; 
+    outline: none;
     background: none;
     font-weight: bold;
 }
