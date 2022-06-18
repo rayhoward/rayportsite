@@ -1,44 +1,44 @@
 let header = document.querySelector('#intro');
 let anim = [
-    { t: "<OIHFWSEFOR>", ms: 150 },
-    { t: "<KAEGIOWEUQ>", ms: 150 },
-    { t: "<WSIOFGUHRN>", ms: 150 },
-    { t: "<OPSIRJGRWI>", ms: 150 },
-    { t: "<IFGBIOEUFZ>", ms: 150 },
-    { t: "<WSGIOUBHEV>", ms: 150 },
-    { t: "<WSOPIGJNEL>", ms: 150 },
-    { t: "<PEITBGJIRD>", ms: 150 },
-    { t: "<PREPRTGPGM>", ms: 150 },
-    { t: "<BTGRGIURHX>", ms: 150 },
+    { t: "<OIHFWSEFOR>", ms: 200 },
+    { t: "<KAEGIOWEUQ>", ms: 200 },
+    { t: "<WSIOFGUHRN>", ms: 200 },
+    { t: "<OPSIRJGRWI>", ms: 200 },
+    { t: "<IFGBIOEUFZ>", ms: 200 },
+    { t: "<WSGIOUBHEV>", ms: 200 },
+    { t: "<WSOPIGJNEL>", ms: 200 },
+    { t: "<PEITBGJIRD>", ms: 200 },
+    { t: "<PREPRTGPGM>", ms: 200 },
+    { t: "<BTGRGIURHX>", ms: 200 },
 
-    { t: "<RRTBHGRHGJ>", ms: 150 }, //R FOUND
-    { t: "<RIHFWSEFOR>", ms: 150 },
+    { t: "<RRTBHGRHGJ>", ms: 200 }, //R FOUND
+    { t: "<RIHFWSEFOR>", ms: 200 },
 
-    { t: "<RAEGIOWEUQ>", ms: 150 }, //A FOUND
-    { t: "<RALOHJHPOE>", ms: 150 },
+    { t: "<RAEGIOWEUQ>", ms: 200 }, //A FOUND
+    { t: "<RALOHJHPOE>", ms: 200 },
 
-    { t: "<RAYRPOPEKG>", ms: 150 }, //Y FOUND
-    { t: "<RAYEITBGJI>", ms: 150 },
+    { t: "<RAYRPOPEKG>", ms: 200 }, //Y FOUND
+    { t: "<RAYEITBGJI>", ms: 200 },
 
-    { t: "<RAY JEPRGK>", ms: 150 }, //SPACE FOUND
-    { t: "<RAY IOEUFZ>", ms: 150 },
+    { t: "<RAY JEPRGK>", ms: 200 }, //SPACE FOUND
+    { t: "<RAY IOEUFZ>", ms: 200 },
 
-    { t: "<RAY HFEOIH>", ms: 150 }, //H FOUND
-    { t: "<RAY HGJIRD>", ms: 150 },
+    { t: "<RAY HFEOIH>", ms: 200 }, //H FOUND
+    { t: "<RAY HGJIRD>", ms: 200 },
 
-    { t: "<RAY HOIPER>", ms: 150 }, //O FOUND
-    { t: "<RAY HOJNEL>", ms: 150 },
+    { t: "<RAY HOIPER>", ms: 200 }, //O FOUND
+    { t: "<RAY HOJNEL>", ms: 200 },
 
-    { t: "<RAY HOWAPR>", ms: 150 }, //W FOUND
-    { t: "<RAY HOWEOR>", ms: 150 },
+    { t: "<RAY HOWAPR>", ms: 200 }, //W FOUND
+    { t: "<RAY HOWEOR>", ms: 200 },
 
-    { t: "<RAY HOWAJG>", ms: 150 }, //A FOUND
-    { t: "<RAY HOWABN>", ms: 150 },
+    { t: "<RAY HOWAJG>", ms: 200 }, //A FOUND
+    { t: "<RAY HOWABN>", ms: 200 },
 
-    { t: "<RAY HOWARL>", ms: 150 }, //R FOUND
-    { t: "<RAY HOWARM>", ms: 150 },
-    
-    { t: "<RAY HOWARD>", ms: 300 },  //D FOUND
+    { t: "<RAY HOWARL>", ms: 200 }, //R FOUND
+    { t: "<RAY HOWARM>", ms: 200 },
+
+    { t: "<RAY HOWARD>", ms: 500 },  //D FOUND
 
 
 ];
